@@ -1,0 +1,69 @@
+body
+{
+    background-color: #222222;
+}
+.headerWrapper
+{
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+
+}
+.nav
+{
+    display: flex;
+    
+
+}
+.headerWrapper ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.headerWrapper li
+{
+    padding: 20px;
+    gap: 20px;
+    color: #ffffff;
+    background-color: #222222;
+}
+
+.heroSection
+{
+    display: flex;
+    justify-content: center;
+}
+
+.heroSectionText
+{
+    font-size: 4.4rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.authorPhoto
+{
+    width: 605px;
+    height: 788px;
+    object-fit: contain;
+}
+.textWrap
+{
+    display: flex;
+    flex-direction: column;
+}
+.inputWrap
+{
+    display: flex;
+    gap: 20px
+}
+button
+{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-family: sans-serif;
+}
